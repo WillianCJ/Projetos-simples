@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --branco-principal: #ffffff;
+    --preto-principal: #322C2B;
+    --cor-primaria: #803D3B;
+    --cor-secundaria: #AF8260;
+    --font-primaria: "Roboto Condensed", sans-serif;
+    --font-secundaria: "Lora", serif;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    color: var(--preto-principal);
+    max-width: 100%;
+}
+
+.cabecalho {
+    background-color: var(--preto-principal);
+    padding: 1rem;
+}
+
+.container__titulo {
+    font-family: var(--font-primaria);
+    color: var(--branco-principal);
+    font-size: 3em;
+}
+
+.container__conteudo__principal {
+    text-align: center;
+    font-family: var(--font-primaria);
+
+}
+
+.container__subtitulo {
+    display: inline-block;
+    margin: 5rem;
+    font-size: 2rem;
+    background-color: var(--branco-principal);
+    width: 35%;
+    box-shadow: 1rem 1rem  var(--cor-primaria);
+    border: 2px dotted var(--branco-principal);
+    border-radius: 5px;
+}
+
+.container__lista {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+} 
+
+.container__filme {
+    margin: 0 4rem 4rem 4rem;
+    border: 13px solid var(--branco-principal);
+    box-shadow: 1rem 1rem  var(--cor-primaria);
+    border-radius: 5px;
+    
+}
+
+.titulo__filme {
+    text-align: center;
+    padding-bottom: 0%;
+    background-color: var(--branco-principal);
+}
+
+.filmes__poster {
+    max-width: 100%;
+    width: 11rem;
+    height: 92%;
+
+}
+
+.rodape {
+    background-color: var(--preto-principal);
+    color: var(--branco-principal);
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--font-secundaria);
+}
+
+.rodape__assinatura {
+    font-family: var(--font-primaria);
+    font-size: 100%;
+    text-align: center;
+    display: inline-block;
+}
+  
